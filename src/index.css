@@ -6,6 +6,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: antiquewhite;
+}
+
+h1 {
+  font-family: monospace;
+  font-size: 32px;
+}
+table {
+  font-size: 6vw;
+  font-stretch: condensed;
+}
+
+.login {
+  height: 100vh;
+  background-image: url("/BG.png");
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 code {
